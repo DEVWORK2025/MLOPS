@@ -1,0 +1,4 @@
+## Branching
+---Released to production is the master branch. Create another branch  for test and development
+---Create branch as per the following command:
+git branch dev
