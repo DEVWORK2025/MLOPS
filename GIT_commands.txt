@@ -10,3 +10,36 @@ git push -u origin main
 git remote add origin https://github.com/DEVWORK2025/MLOPS.git
 git branch -M main
 git push -u origin main
+
+--to check if any changes reflected in the original file..
+git diff   
+
+--- to check all history
+git log
+
+--- to check log in one line
+git log --oneline
+
+--- reset back to previous version to unique identifier
+git reset
+git reset --hard <commit hash value>
+
+--- how to get hash values:
+git log displays all commits after every commit there is a single number
+
+Code is in local repository in tat case we can use reset
+Github is the remote repository
+
+local        GitHUB
+commit1      commit1
+commit2      commit2
+commit3      commit3
+
+if we perform reset then commit 3 will go from local repository and results into the mis-match.. to avoid the same it will copy from commit2 to commit4 to newer version.
+
+
+
+---
+git revert <commit hash-value>
+git revert HEAD^0
+--- code is back to previous version
