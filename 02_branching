@@ -2,3 +2,14 @@
 ---Released to production is the master branch. Create another branch  for test and development
 ---Create branch as per the following command:
 git branch dev
+
+--- green colour and asterics marks shows , currently we are in this branch 
+--displays all branches in your local repository
+git branch 
+
+--- come out of the current branch
+git checkout <branch name>
+git checkout dev
+
+
+
