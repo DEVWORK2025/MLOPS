@@ -15,6 +15,17 @@ git checkout dev
 git branch
 git status
 
+---move to master branch
+git checkout master
+
+#### merge
+--check the difference in two locations
+git diff master..dev
+
+--merge
+git merge <branch name>
+git merge dev
+git merge --no-ff dev
 
 
 
