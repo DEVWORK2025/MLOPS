@@ -27,5 +27,13 @@ git merge <branch name>
 git merge dev
 git merge --no-ff dev
 
+#### Clean Up
+--delete a branch from local repository
+git branch -d <branch name>
+git branch -d dev
+
+-- delete a branch from remote repository
+git push [remote project] -delete [branch name]
+
 
 
