@@ -11,5 +11,10 @@ git branch
 git checkout <branch name>
 git checkout dev
 
+-- to check which branch we are currently working
+git branch
+git status
+
+
 
 
